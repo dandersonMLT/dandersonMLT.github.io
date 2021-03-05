@@ -29,6 +29,15 @@ img.aligncenter {
     margin: 0;
 }
 
+textarea,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+.input.text {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
 a {
     color: #0D5192;
 }
@@ -111,13 +120,11 @@ body.outer {
     transition: all 0.3s;
     margin-top: -4px;
     font-weight: 700;
-    -webkit-appearance: none;
-    border-radius: 0;
 }
 
 .contactform [type="submit"]:hover {
-        background: #24A0E8;
-    }
+    background: #24A0E8;
+}
 
 .largestFont {
     font-size: 45px;
