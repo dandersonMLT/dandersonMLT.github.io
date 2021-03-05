@@ -1,7 +1,6 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en-US">
 	<head>
-
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		
@@ -15,45 +14,32 @@
 		<!--<link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32"> -->
 
 		<!-- Styles -->
-		<link rel='stylesheet' href='assets/css/me.css' type='text/css' media='screen' />
+		<link rel='stylesheet' href='style.css' type='text/css' media='screen' />
 		<meta name="viewport" content="width=device-width,initial-scale=1" />
-
 	</head>
-	<body id="fullsingle" class="page-template-page-fullsingle-me">
-	<div class="fs-me">
-		<!-- Content Container -->
-		<div class="me-content">
-			<div class="logo">
-				<!--<img src="images/logo.png" alt="Logo" /> -->
+	<body id="outer">
+	<div class="content">
+		<div class="header">
+			<div class="headerphoto">
+				<img class="alignleft" src="./images/dave.png" alt="Dave Anderson Photo" />
 			</div>
-			<div class="bio">				
-				<p class="largestFont">
-					Hi, I'm Dave Anderson.
-				</p>
-				<p class="largerFont">
-					I am a software developer in Shreveport, LA.
-				</p>
-				<p class="largerFont"></p>
+			<div class="headertext">
+				<p class="largestFont">Dave Anderson</p>
+				<p class="largerFont">Software developer in Shreveport, LA.</p>
 				<p class="largerFont">Visit my <a href="https://www.linkedin.com/in/davedanderson/">LinkedIn</a> or message me below.</p>
-
-				<!-- Contact Form -->
-				<form class="contactform" action="https://formspree.io/f/xrgowvzr" method="POST">
-					<input type="text" name="name" placeholder="Your Name" required />
-					<input type="text" name="_replyto" placeholder="Your Email Address" required />
-					<textarea name="comment" placeholder="Comment" required></textarea>
-					<input type="submit" value="SUBMIT"/>
-				</form>
-			</div>
-			<div class="credit">
-				<p class="copyright">&copy;<script>document.write(new Date().getFullYear())</script> <a href="#">Dave Anderson</a> - <a href="https://onepagelove.com/me">Me Template</a> by <a href="https://onepagelove.com">One Page Love</a></p>
-				<!-- 
-				To edit this credit you can remove the CCA 3.0 license for only $5 here: https://onepagelove.com/me 
-				this really helps contribute towards us developing more templates and means the world to me!
-				Cheers, Rob (@robhope)
-				-->
 			</div>
 		</div>
+		<div class="contactform">
+			<form class="contactform" action="https://formspree.io/f/xrgowvzr" method="POST">
+				<input type="text" name="name" placeholder="Your Name" required />
+				<input type="text" name="_replyto" placeholder="Your Email Address" required />
+				<textarea name="comment" placeholder="Comment" required></textarea>
+				<input type="submit" value="SUBMIT" />
+			</form>
+		</div>
+		<div class="footer">
+			<p class="copyright">&copy;<script>document.write(new Date().getFullYear())</script> Dave Anderson</p>
+		</div>
 	</div>
-	<img class="photorightbottom" src="./images/dave.png" alt="Dave Anderson Photo"></img>
 	</body>
 </html>

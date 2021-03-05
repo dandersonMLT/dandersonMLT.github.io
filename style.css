@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+
+html {
+    background-color: #141414;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*img.alignright {
+    float: right;
+}
+
+img.alignleft {
+    float: left;
+}
+
+img.aligncenter {
+    clear: both;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}*/
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -moz-font-feature-settings: "liga" on;
+    margin: 0;
+}
+
+a {
+    color: #0D5192;
+}
+
+a:hover {
+    color: #24A0E8;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+body.outer {
+    background-color: #000000;
+    background-image: none;
+}
+
+.content {
+    height: auto;
+    max-width: 66%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+.headertext {
+    display:inline-block;
+    padding-left: 28px;
+    padding-top: 75px;
+}
+
+.headerphoto {
+    display: inline-block;
+    float: left;
+}
+
+.contactform input, textarea {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid #0D5192;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.contactform input:focus {
+        border: 2px solid #24A0E8;
+}
+
+.contactform textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+
+.contactform [type="submit"] {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    background: #0D5192;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+
+.contactform [type="submit"]:hover {
+        background: #24A0E8;
+    }
+
+.largestFont {
+    font-size: 45px;
+}
+
+.largerFont {
+    font-size: 36px;
+}
+
+.largerFont {
+    font-size: 24px;
+}
