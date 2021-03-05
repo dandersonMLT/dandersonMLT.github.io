@@ -111,6 +111,8 @@ body.outer {
     transition: all 0.3s;
     margin-top: -4px;
     font-weight: 700;
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 
 .contactform [type="submit"]:hover {
